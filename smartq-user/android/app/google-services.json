@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384712045387",
+    "project_id": "smartq-hospital",
+    "storage_bucket": "smartq-hospital.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384712045387:android:550ad893aa6c605cabeece",
+        "android_client_info": {
+          "package_name": "com.example.smartq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjA7C4AgPyMXYV2Wf7K62cqqHUAdPJ0IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android 12+ native splash when system dark mode is enabled -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+
+        <item name="android:forceDarkAllowed">false</item>
+
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Native splash -->
+        <item name="android:windowSplashScreenBackground">#1E6DFB</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/empty_splash_icon</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#1E6DFB</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">#1E6DFB</item>
+        <item name="android:navigationBarColor">#1E6DFB</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+    </style>
+
+    <!-- Theme after Flutter starts -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:statusBarColor">#1E6DFB</item>
+        <item name="android:navigationBarColor">#1E6DFB</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+    </style>
+
+</resources>
