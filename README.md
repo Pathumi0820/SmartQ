@@ -220,8 +220,8 @@ JWT_SECRET=YOUR_SECRET_KEY
 
 ---
 
-# License
+# Copyright
 
-Copyright © 2026 Pathumi Roshanee Kumarage.
+© 2026 Pathumi Roshanee Kumarage. All rights reserved.
 
 This project, *SmartQ – Hospital Queue Management System*, was developed as a Final Year Project. The source code is provided for academic review and portfolio purposes only. No part of this project may be copied, modified, redistributed, or used for commercial purposes without prior written permission from the project owner. Unauthorized use of this project is prohibited.
